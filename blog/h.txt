@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #1d1d1d;
+            text-align: right;
+            padding: 0;
+        }
+        
+        ul {
+            margin: 30px 20px 0 0;
+            /* text-align: center; */
+            display: inline-block;
+        }
+        
+        .logo {
+            display: inline;
+            float: left;
+            padding: 0;
+            margin: 0 0 0 100px;
+        }
+        
+        li {
+            display: inline;
+            margin-right: 50px;
+            font-weight: bolder;
+            font-size: large;
+        }
+        
+        a:link {
+            color: green;
+            text-decoration-line: none;
+        }
+        
+        a:visited {
+            color: green;
+        }
+        
+        a:hover {
+            color: #F0EFEF;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="gree_logo.png" class="logo" alt="">
+        <ul>
+            <a href="file:///mnt/EE2025D32025A395/coded/WEBD_FULL/webd_projects/class_project/blogpage.html">
+                <li>
+                    HOME
+                </li>
+            </a>
+            <li>
+                <a href="https://mittalsam20.github.io/resume/">
+                                                        PORTFOLIO        
+                                                    </a>
+            </li>
+            <li>
+                <a href="https://cubcoder.wordpress.com/">
+                                                        DAILY POSTS    
+                                                    </a>
+            </li>
+            <li>
+                <a href="#a">
+                                                        ABOUT
+                                                    </a>
+            </li>
+            <li>
+                <a href="#c">
+                                                        CONTACT
+                                                    </a>
+            </li>
+        </ul>
+    </nav>
+</body>
+
+</html>

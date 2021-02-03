@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+}
+
+.contain {
+    border: 10px black solid;
+    border-radius: 100 px;
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.dis {
+    width: 900px;
+}
+
+.keys {
+    background-color: lightgray;
+    width: 750px;
+    border: none;
+    border-radius: 0 0 20px 20px;
+}
+
+input {
+    background-color: black;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    height: 200px;
+    width: 750px;
+    color: white;
+    font-size: 100px;
+    outline: none;
+}
+
+.row {
+    height: 60px;
+}
+
+.col {
+    /* width: 200px; */
+}
+
+button {
+    border: solid;
+    border-width: 1px;
+}
+
+.equal {
+    /* height: 200px; */
+}
