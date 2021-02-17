@@ -61,8 +61,12 @@ function update(latest) {
             mem = mem.slice(0, mem.length - 1)
             apvalue = "";
             break;
+        case 'Enter':
         case '=':
-            operads(mem);
+            result(mem);
+            apvalue = ""
+            break;
+        case 'result':
             break;
         default:
             apvalue = "";
@@ -81,22 +85,37 @@ function update(latest) {
 
 }
 
-function operads(st) {
+function result(st) {
+    left = right = 0;
     for (k = 0; k < st.length; k++) {
         if (st[k] == '/') {
-            for (j = st.indexOf("/"); j < st.indexOf("+"); j++) {
-                f = st[j];
+            for (j = k + 1; j < st.length + 1; j++) {
+                if (st[j] !== '+' || st[j] !== '-' || st[j] !== '/' || st[j] !== 'x') {
+                    right++;
+                    num1 = st.slice(k + 1, k + right);
+                    console.log(num1);
+                }
+                if (st[j] == '+' || st[j] == '-' || st[j] == 'x' || st[j] == '/') {
+                    break;
+                }
             }
-            for (l = st.indexOf("/"); l > st.indexOf("+"); l--) {
-                s = st[l];
+            right = 0;
+            for (l = k - 1; l >= 0; l--) {
+                if (st[j] !== '+' || st[j] !== '-' || st[j] !== '/' || st[j] !== 'x') {
+                    left++;
+                    num2 = st.slice(k - left, k);
+                    console.log(num2);
+                }
+                if (st[j] == '+' || st[j] == '-' || st[j] == 'x' || st[j] == '/') {
+                    break;
+                }
             }
-            r = s / l;
-            document.getElementById("display").value = r;
+            left = 0;
+            var r = Number(num2) / Number(num1);
+            console.log(r)
+            mem = "";
+            apvalue = r;
+            update("result")
         }
-
-
-
-
-
     }
 }
