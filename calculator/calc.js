@@ -4,14 +4,11 @@ for (i = 0; i < document.getElementsByClassName("btn").length; i++) {
         update(this.innerHTML);
     });
 }
-
 document.addEventListener("keydown", function() {
     update(event.key);
 });
 
-
 function update(latest) {
-
     switch (latest) {
         case '9':
             apvalue = 9;
@@ -55,25 +52,51 @@ function update(latest) {
         case '/':
             apvalue = "/";
             break;
+        case 'Delete':
+        case 'AC':
+            mem = ""
+            apvalue = "";
+            break;
+        case 'Backspace':
+            mem = mem.slice(0, mem.length - 1)
+            apvalue = "";
+            break;
         case '=':
             operads(mem);
             break;
         default:
-            console.log("s");
-
+            apvalue = "";
     }
-    // document.querySelector("input").setAttribute("value", x);
-    document.querySelector("input").value = mem + "" + apvalue;
-    mem = document.querySelector("input").value;
+    if (apvalue == '+' || apvalue == '-' || apvalue == 'x' || apvalue == '/') {
+        if (mem[mem.length - 1] == apvalue) {
+            apvalue = "";
+        } else if (mem[mem.length - 1] == "+" || mem[mem.length - 1] == '-' || mem[mem.length - 1] == '/' || mem[mem.length - 1] == 'x') {
+            mem = mem.slice(0, mem.length - 1)
+        } else if (mem == "" && apvalue !== '-') {
+            apvalue = "";
+        }
+    }
+    document.getElementById("display").value = mem + "" + apvalue;
+    mem = document.getElementById("display").value;
 
 }
 
 function operads(st) {
     for (k = 0; k < st.length; k++) {
-        if (st[k] == '+') {
-            arr = st.split('+', 2);
-            console.log(arr);
+        if (st[k] == '/') {
+            for (j = st.indexOf("/"); j < st.indexOf("+"); j++) {
+                f = st[j];
+            }
+            for (l = st.indexOf("/"); l > st.indexOf("+"); l--) {
+                s = st[l];
+            }
+            r = s / l;
+            document.getElementById("display").value = r;
         }
-        // else if mem[k] == '-';
+
+
+
+
+
     }
 }

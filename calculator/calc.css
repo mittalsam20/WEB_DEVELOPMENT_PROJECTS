@@ -3,20 +3,18 @@ body {
 }
 
 .contain {
-    border: 10px black solid;
-    border-radius: 100 px;
-    width: 1000px;
+    border: 1px black solid;
+    width: fit-content;
     margin-left: 100px;
     margin-top: 10px;
+    padding: 10px;
 }
 
-.dis {
-    width: 900px;
-}
+.dis {}
 
 .keys {
     background-color: lightgray;
-    width: 750px;
+    width: 650px;
     border: none;
     border-radius: 0 0 20px 20px;
 }
@@ -26,25 +24,23 @@ input {
     border: none;
     border-radius: 20px 20px 0 0;
     height: 200px;
-    width: 750px;
+    width: 650px;
     color: white;
     font-size: 100px;
     outline: none;
 }
 
 .row {
+    margin: 0;
     height: 60px;
 }
 
-.col {
-    /* width: 200px; */
+hr {
+    margin: 0;
 }
 
-button {
-    border: solid;
-    border-width: 1px;
-}
+.col {}
 
-.equal {
-    /* height: 200px; */
-}
+button {}
+
+.equal {}
