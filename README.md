@@ -1,14 +1,14 @@
 
 A repo containing some beginner level WEB DEVELOPMENT projects
 This repository is live at
-https://mittalsam20.github.io/frontend-beg-projects/
+https://mittalsam20.github.io/WEB_DEVELOPMENT_PROJECTS/
 
 
-TECH STACK USED:- 
+#TECH STACK USED:- 
 HTML,CSS,JS,BOOTSTRAP
 NODE.JS,EXPRESS.JS,MONGODB
 
-##List of projects are as follows:-
+#List of projects are as follows:-
  1)RESUME
  2)BLOG
  3)DRUMKIT
@@ -16,7 +16,7 @@ NODE.JS,EXPRESS.JS,MONGODB
  5)RNADOM BACKGROUND COLOUR CHANGER
  6)FULLY FLEDGED CALCULATOR(NOT COMPLETED YET)
  
- ##Projects that are coming soon:-
+ #Projects that are coming soon:-
   1)TO DO LIST
   2)INTERACTIVE QUIZ WEBAPP
   3)MESSAGE ENCODER DECODER
@@ -28,5 +28,12 @@ NODE.JS,EXPRESS.JS,MONGODB
   9)UPDATED BLOG PAGE
   10)UPDATE RESUME
   11)LMS SYSTEM(FRONT-END)
+
+
+
+
+
+
+
 
 
