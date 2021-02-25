@@ -1,8 +1,12 @@
-A repo containing some beginner level WEB DEVELOPMENT projects using 
-This repository is live at --> https://mittalsam20.github.io/frontend-beg-projects/
+
+A repo containing some beginner level WEB DEVELOPMENT projects
+This repository is live at
+https://mittalsam20.github.io/frontend-beg-projects/
+
+
 TECH STACK USED:- 
 HTML,CSS,JS,BOOTSTRAP
-NODE.JS,MONGODB
+NODE.JS,EXPRESS.JS,MONGODB
 
 ##List of projects are as follows:-
  1)RESUME
