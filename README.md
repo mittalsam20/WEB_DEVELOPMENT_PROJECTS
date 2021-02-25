@@ -1,5 +1,25 @@
-# frontend-beg-projects
-a repo containing some beginner level front end projects
+A repo containing some beginner level front end projects
+This repository is live at --> https://mittalsam20.github.io/frontend-beg-projects/
+
+##List of projects are as follows:-
+ 1)RESUME
+ 2)BLOG
+ 3)DRUMKIT
+ 4)RANDOM DICE NUMBER GENERATOR
+ 5)RNADOM BACKGROUND COLOUR CHANGER
+ 6)FULLY FLEDGED CALCULATOR(NOT COMPLETED YET)
+ 
+ ##Projects that are coming soon:-
+  1)TO DO LIST
+  2)INTERACTIVE QUIZ WEBAPP
+  3)MESSAGE ENCODER DECODER
+  4)TIC TAC TOE
+  5)TIMER AND CLOCK/DIGITAL CLOCK
+  6)ECOMMERCE WEBSITE
+  7)REAL TIME CHAT APP
+  8)TEXT TO SPEECH
+  9)UPDATED BLOG PAGE
+  10)UPDATE RESUME
+  11)LMS SYSTEM(FRONT-END)
 
 
-This repository is online --> https://mittalsam20.github.io/frontend-beg-projects/
