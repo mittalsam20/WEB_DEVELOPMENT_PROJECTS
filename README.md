@@ -3,7 +3,6 @@ A repo containing some beginner level WEB DEVELOPMENT projects
 This repository is live at
 https://mittalsam20.github.io/WEB_DEVELOPMENT_PROJECTS/
 
-
 #TECH STACK USED:- 
 HTML,CSS,JS,BOOTSTRAP
 NODE.JS,EXPRESS.JS,MONGODB
