@@ -9,7 +9,7 @@ NODE.JS,EXPRESS.JS,MONGODB
 
 #List of projects are as follows:-
 
- -[x]RESUME
+ - [x] RESUME
  [x]BLOG
  [x]DRUMKIT
  [x]RANDOM DICE NUMBER GENERATOR
