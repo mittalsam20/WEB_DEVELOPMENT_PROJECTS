@@ -1,14 +1,12 @@
 
-A repo containing some beginner level WEB DEVELOPMENT projects
-This repository is live at
-https://mittalsam20.github.io/WEB_DEVELOPMENT_PROJECTS/
+## A repo containing some beginner level WEB DEVELOPMENT projects
+## This repository is live at:-  https://mittalsam20.github.io/WEB_DEVELOPMENT_PROJECTS/
 
-#TECH STACK USED:- 
-HTML,CSS,JS,BOOTSTRAP
-NODE.JS,EXPRESS.JS,MONGODB
+## TECH STACK USED:- 
+ * HTML,CSS,JS,BOOTSTRAP
+ * NODE.JS,EXPRESS.JS,MONGODB
 
-#List of projects are as follows:-
-
+### List of projects are as follows:-
  - [x] RESUME
  - [x] BLOG
  - [x] DRUMKIT
@@ -16,9 +14,7 @@ NODE.JS,EXPRESS.JS,MONGODB
  - [x] RNADOM BACKGROUND COLOUR CHANGER
  - [x] FULLY FLEDGED CALCULATOR(NOT COMPLETED YET)
 
- 
- #Projects that are coming soon:-
-
+ ### Projects that are coming soon:-
  - [ ] TO DO LIST
  - [ ] INTERACTIVE QUIZ WEBAPP
  - [ ] MESSAGE ENCODER DECODER
