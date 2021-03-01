@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/header.css">
+    <title>Document</title>
+    <style>
+        nav {
+            position: fixed;
+            width: 100%;
+            /* top: 0; */
+            background-color: #1d1d1d;
+            text-align: right;
+            padding: 0;
+            transition: top 0.3s;
+            z-index: 2;
+        }
+        
+        body {
+            background-color: red;
+        }
+        
+        ul {
+            margin: 10px 20px 0 0;
+            display: inline-block;
+        }
+        
+        nav .logo {
+            width: 5%;
+            float: left;
+            padding: 0;
+            margin: 0 0 0 100px;
+        }
+        
+        li {
+            /* display: inline; */
+            margin-right: 30px;
+            margin-bottom: 10px;
+            font-weight: bolder;
+            font-size: large;
+        }
+        
+        a:active {
+            color: red;
+        }
+        
+        a:link {
+            color: #F0EFEF;
+            text-decoration-line: none;
+        }
+        
+        a:visited {
+            color: green;
+        }
+        
+        a:hover {
+            color: green !important;
+        }
+    </style>
+</head>
+
+<header>
+    <!----------------------------------------CODE FOR NAVBAR---------------------------------------------->
+    <nav class="navbar  navbar-expand-lg navbar-light bg-dark position-fixed" id="updown">
+        <div class="container-fluid">
+            <a class="navbar-brand me-auto text-light mr-auto" href="#">BUNCH</a>
+            <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse ml-auto" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " aria-current="page" href="/login/login_sign.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-light " href="/contact us/contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <br><br><br>
