@@ -1,0 +1,173 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+p {
+    margin: 0px;
+    text-align: left;
+}
+
+hr {
+    border-style: solid none none none;
+    border-width: 4px;
+    width: 75px;
+    border-color: #c5b2a3;
+}
+
+.hr_down {
+    border-color: #1d1d1d;
+    width: 40%;
+}
+
+ul {
+    padding-left: 17px;
+}
+
+.top_cont {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 60%;
+    height: 218px;
+    background-color: #1d1d1d;
+    text-align: center;
+}
+
+.main_heading {
+    color: #F0EFEF;
+    letter-spacing: 30px;
+    font-size: 45px;
+    margin: 10px auto 10px auto;
+}
+
+.desig {
+    margin-top: 20px;
+    letter-spacing: 20px;
+}
+
+.left_cont {
+    /* position: relative; */
+    position: absolute;
+    left: 5%;
+    width: 25%;
+    height: 1250px;
+    background-color: #1d1d1d;
+    text-align: center;
+}
+
+.icons {
+    font-size: x-large;
+    margin: 3.6px 15px 0 0;
+}
+
+.heading {
+    margin-top: 30px;
+    margin-bottom: 35px;
+    color: #1d1d1d;
+    text-align: center;
+    background-color: #c5b2a3;
+    padding: 10px 0 10px 0;
+    width: 70%;
+    display: inline-block;
+    letter-spacing: 9px;
+    font-size: 20px;
+}
+
+img {
+    border: solid #c5b2a3 4px;
+    margin: 40px auto 40px auto;
+    height: 170px;
+    width: 50%;
+    display: block;
+}
+
+.left_text {
+    color: white;
+    margin-left: 14.8%;
+}
+
+.right_cont {
+    /* background-color: red; */
+    position: absolute;
+    top: 287px;
+    left: 35%;
+    right: 5%;
+    width: 60%;
+    height: 980px;
+}
+
+.pro_heading {
+    margin-top: 0;
+    text-align: center;
+    color: #F0EFEF;
+    background-color: #1d1d1d;
+    letter-spacing: 15px;
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+}
+
+.normal_heading {
+    margin-top: 37px;
+    margin-bottom: 9px;
+    text-align: center;
+}
+
+table {
+    margin: 0;
+}
+
+.SKILLC {
+    background-color: #ddd;
+    margin: 5px 40px 10px 0;
+    width: 220px;
+}
+
+.SKILLL {
+    background-color: #7F7E81;
+    text-align: right;
+}
+
+.C {
+    width: 40%;
+}
+
+.PY {
+    width: 30%;
+}
+
+.JS {
+    width: 30%;
+}
+
+.HT {
+    width: 40%;
+}
+
+.CSS {
+    width: 40%;
+}
+
+.PHP {
+    width: 50%;
+}
+
+.DSA {
+    width: 60%;
+}
+
+.NODE {
+    width: 60%;
+}
+
+.SHELL {
+    width: 30%;
+}
+
+.RC {
+    position: absolute;
+    right: 0;
+    top: 41.7%;
+    width: 45.5%;
+    padding: 10px;
+}

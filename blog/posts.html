@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script language="javascript" type="text/javascript" src="f.txt"></script>
+    <script language="javascript" type="text/javascript" src="h.txt"></script>
+    <style>
+        /* ----------------------------------------------------------CSS------------------------------------------------------------- */
+        
+        body {
+            height: 1000px;
+            position: relative;
+            margin: 70px 0 0 0;
+        }
+        /* ----------------------------------------------------- NAV BAR---------------------------------------------------------- */
+        
+        nav {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            background-color: #1d1d1d;
+            text-align: right;
+            padding: 0;
+            transition: top 0.3s;
+            z-index: 2;
+        }
+        
+        ul {
+            margin: 30px 20px 0 0;
+            display: inline-block;
+        }
+        
+        nav .logo {
+            float: left;
+            padding: 0;
+            margin: 0 0 0 100px;
+        }
+        
+        li {
+            display: inline;
+            margin-right: 50px;
+            font-weight: bolder;
+            font-size: large;
+        }
+        
+        a:link {
+            color: green;
+            text-decoration-line: none;
+        }
+        
+        a:visited {
+            color: green;
+        }
+        
+        a:hover {
+            color: #F0EFEF;
+        }
+        /* ------------------------------- NAV BAR FINISHED-------------------------------- */
+        
+        .fpost {
+            width: 100%;
+            height: 560px;
+        }
+        
+        .row {
+            height: 50%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .col {
+            /* display: inline-block; */
+            float: left;
+            width: 33.33%;
+            height: 90%;
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            margin-top: 120px;
+        }
+        
+        .fp {
+            margin-left: 40px;
+        }
+        
+        .fp:hover {
+            cursor: pointer;
+            box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+            transform: scale3d(1.1, 1.1, 1)
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav id=navbar>
+        <a href="file:///mnt/EE2025D32025A395/coded/WEBD_FULL/webd_projects/class_project/blogpage.html">
+            <img src="gree_logo.png" class="logo" alt="">
+        </a>
+        <ul>
+            <a href="file:///mnt/EE2025D32025A395/coded/WEBD_FULL/webd_projects/class_project/blogpage.html">
+                <li>
+                    Home
+                </li>
+            </a>
+            <li>
+                <a href="https://mittalsam20.github.io/resume/">
+                                                        Portfolio        
+                                                   </a>
+            </li>
+            <li>
+                <a href="posts.html">
+                                                        Daily Posts   
+                                                    </a>
+            </li>
+            <li>
+                <a href="#a">
+                                                        About Us
+                                                    </a>
+            </li>
+            <li>
+                <a href="#c">
+                                                        Contact Us
+                                                    </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="fpost">
+        <h1 style="text-align: center;">BLOGS</h1>
+        <div class="row">
+            <div class="col">
+                <p></p>
+
+                <img class="fp" src="images/whatpro.jpeg" alt="" style="width: 80%; height:80%;">
+
+            </div>
+            <div class="col">
+                <p></p>
+                <img class="fp" src="images/whycode.jpeg" alt="" style="width: 80%; height:80%;">
+            </div>
+            <div class="col">
+                <p></p>
+                <img class="fp" src="images/svp.jpeg" alt="" style="width: 80%; height:80%;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="fp" src="images/road.jpeg" alt="" style="width: 80%; height:80%;">
+            </div>
+            <div class="col">
+                <img class="fp" src="images/rva.jpeg " alt="" style="width: 80%; height:80%;">
+            </div>
+            <div class="col">
+
+            </div>
+        </div>
+    </div>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-77px";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+document.write('
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        footer {
+            background-color: #1d1d1d;
+            width: 100%;
+            height: 200px;
+        }
+        
+        .row {
+            height: 50%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .col {
+            /* display: inline-block; */
+            float: left;
+            width: 33.33%;
+            height: 90%;
+            box-sizing: border-box;
+        }
+        
+        #a {
+            background-color: red;
+        }
+        
+        #c {
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <footer>
+        <div class="row">
+
+            <div id="c" class="contact col">
+                <p>
+                    mail us at:cub.coder@gmail.com <br> contact no:- 9821440573 <br> F-1202,orchad <br> Garden city <br> Ahmedabad,INDIA
+                </p>
+            </div>
+
+            <div id="a" class="about col">
+                <p>ssss</p>
+                <br><br><br><br><br>
+            </div>
+
+            <div class="col" id="l">
+                <img src="gree_logo.png" alt="">
+            </div>
+
+            <hr>
+        </div>
+    </footer>
+</body>
+
+</html>')

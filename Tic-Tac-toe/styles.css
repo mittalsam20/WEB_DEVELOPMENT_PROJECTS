@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+td {
+    border: solid black 2px;
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    font-size: 70px;
+}
+
+table {
+    border-collapse: collapse;
+    position: relative;
+    top: 100px;
+    left: auto;
+    margin: auto;
+    right: auto;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-right: none;
+}

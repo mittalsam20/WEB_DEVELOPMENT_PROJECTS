@@ -1,0 +1,367 @@
+/* ----------------------------------------------------------CSS------------------------------------------------------------- */
+
+body {
+    height: 1000px;
+    position: relative;
+    margin: 70px 0 0 0;
+}
+
+
+/* ----------------------------------------------------- NAV BAR---------------------------------------------------------- */
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #1d1d1d;
+    text-align: right;
+    padding: 0;
+    transition: top 0.3s;
+    z-index: 2;
+}
+
+ul {
+    margin: 30px 20px 0 0;
+    display: inline-block;
+}
+
+nav .logo {
+    float: left;
+    padding: 0;
+    margin: 0 0 0 100px;
+}
+
+li {
+    display: inline;
+    margin-right: 50px;
+    font-weight: bolder;
+    font-size: large;
+}
+
+a:active {
+    color: red;
+}
+
+a:link {
+    color: green;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: #F0EFEF;
+}
+
+
+/* ------------------------------- NAV BAR FINISHED-------------------------------- */
+
+
+/* ------------------------HEADER IMAGE-------------------------------------------- */
+
+.company_name {
+    color: white;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: relative;
+    top: 280px;
+    left: 20px;
+}
+
+.header_image h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.slogan {
+    position: relative;
+    top: 260px;
+    left: 26px;
+    color: #F0EFEF;
+}
+
+.header_image {
+    font-family: 'Cinzel', serif;
+    background-image: url("images/3.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 536px;
+}
+
+
+/* ---------------------------HEADER IMAGE FINISHED----------------------------- */
+
+
+/* ------------------------------------ABOUT US------------------------------------------- */
+
+.about {
+    height: 25%;
+}
+
+.about h1 {
+    text-align: center;
+}
+
+
+/* ------------------------------------ABOUT US FINISHED------------------------------------------- */
+
+
+/* -----------------------------------------FPOST----------------------------------------------- */
+
+.fpost {
+    width: 100%;
+    height: 40%;
+}
+
+.fpost h2 {
+    margin-left: 42px;
+}
+
+.row {
+    height: 50%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.fp_image {
+    margin-left: 40px;
+    transition: 0.3s;
+}
+
+.fp_image:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+/* -------------------------------------------FPOST FINISHED-------------------------------- */
+
+.get_in_touch {
+    background-image: url("images/lap.jpeg");
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 80%;
+    position: relative;
+}
+
+.suggest_heading {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: -15px;
+    left: 3.3%;
+    width: 85%;
+    border-radius: 3px;
+    background-color: blue;
+    padding: 0px 20px 0px 20px;
+    font-size: 23px;
+    z-index: 1;
+}
+
+.form_suggest {
+    color: black;
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    width: 35%;
+    height: 75;
+    border-radius: 7px;
+    background-color: white;
+    z-index: 0;
+}
+
+input {
+    margin: 0 0 20px 20px;
+    width: 200px;
+    border-style: none none solid none;
+    border-color: #c5c5c5;
+    border-width: 0.1px;
+    outline: none;
+}
+
+label {
+    margin-left: 20px;
+    /* margin-top: 3000px; */
+    /* margin-bottom: 50px; */
+}
+
+textarea {
+    margin: 0 0 20px 20px;
+    border-style: none none solid none;
+    border-color: #c5c5c5;
+    border-width: 0.1px;
+    outline: none;
+}
+
+.submit {
+    position: relative;
+    left: 320px;
+    color: white;
+    background-color: blue;
+    border-radius: 7px;
+    outline: none;
+    border-style: none;
+    width: 100px;
+    height: 46px;
+}
+
+.get_in_touch h1 {
+    position: relative;
+    left: 55px;
+    top: 100px;
+}
+
+.get_in_touch h2 {
+    position: relative;
+    left: 55px;
+    top: 150px;
+    font-size: 30px;
+}
+
+
+/* ---------------------------------------NEWSLETTER SUBSCRIBE------------------------------------------- */
+
+.subscribe {
+    width: 100%;
+    height: 33%;
+}
+
+.sub_button {
+    position: relative;
+    left: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 7px;
+    outline: none;
+    border-style: none;
+    width: 150px;
+    height: 40px;
+}
+
+.sub_button:hover,
+.submit:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sub_mail {
+    height: 20px;
+    margin-left: 3px;
+    width: 250px;
+}
+
+
+/* ---------------------------------------NEWSLETTER SUBSCRIBE FINISHED------------------------------------------- */
+
+
+/* -------------------------------------------FOOTER----------------------------------------- */
+
+footer {
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 230px;
+}
+
+#c {
+    text-align: left;
+}
+
+#l {
+    text-align: right;
+}
+
+#l .logo {
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+footer hr {
+    width: 80%;
+    border-style: none none solid none;
+    border-width: 0.1px;
+    color: #F0EFEF;
+}
+
+.cp {
+    display: inline;
+    font-size: 15px;
+    margin: 0 0 0 400px;
+    color: #F0EFEF;
+}
+
+
+/* --------------------------------FOOTER-FINISHED------------------------------------------- */
+
+
+/* ----------------------------icons-------------------------------- */
+
+.icons {
+    /* display: block; */
+    font-size: 50px;
+    margin: 30px 0 10px 50px;
+}
+
+.fb {
+    color: #3b5998;
+}
+
+.tw {
+    color: #00acee;
+}
+
+.ig {
+    color: #DD2A7B;
+}
+
+.fb:hover,
+.tw:hover,
+.ig:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale3d(1.1, 1.1, 1.1)
+}
+
+.icon2 {
+    font-size: 30px;
+    margin: 5px 10px 0px 1px;
+}
+
+.logo:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bell {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 3%;
+    z-index: 5;
+    border-radius: 1000px;
+}
+
+.bell:hover {
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: scale3d(1.1, 1.1, 1.1)
+}
+
+
+/* ----------------------------icons END-------------------------------- */

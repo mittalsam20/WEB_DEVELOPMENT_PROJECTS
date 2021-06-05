@@ -1,0 +1,11 @@
+<%- include("header") -%>
+
+    <h3>Add Your
+        <%=disp_listnumber%> To-Do-List</h3>
+    <form action="/listname" method="post">
+        <input type="text" name="listname" id="newlist">
+        <button id="add_list_button" type="submit">+</button>
+    </form>
+    <h2>Add Your First List Name</h2>
+
+    <%- include("footer") -%>
