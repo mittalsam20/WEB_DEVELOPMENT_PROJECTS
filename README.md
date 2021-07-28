@@ -5,8 +5,6 @@ A repo that contains all of my beginner level front end projects.I plan to uploa
 
 ### TECH STACK USED
 - HTML,CSS,JS
-- BOOTSTRAP,JQUERY
-- NODEJS,EXPRESSJS,MONGODB
 
 ### PROJECTS COMPLETED
 
